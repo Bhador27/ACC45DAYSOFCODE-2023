@@ -2,6 +2,6 @@
 #include <conio.h>
 int main()
 {
-    printf("Helo, my name is vaishnavi bhadoriya. I am from amity university gwalior,betech cse.   ");
+    printf("Hello, my name is Vaishnavi Bhadoriya. I am from Amity University Gwalior,b.tech cse.");
     return 0;
 }
