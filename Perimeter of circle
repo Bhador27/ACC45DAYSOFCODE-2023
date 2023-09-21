@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main()
+{
+	 float rad,peri;
+	 printf("Enter the radius:");
+	 scanf("%f",&rad);
+	 peri = 2 * 3.14 * rad;
+	 printf("Perimeter of radius %f is %f\n",rad,peri);
+	 return 0;
+}
