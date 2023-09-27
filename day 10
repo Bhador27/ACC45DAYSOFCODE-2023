@@ -1,0 +1,21 @@
+#include<stdio.h>
+int main()
+{
+	int r2k,r5,r2,r1,amt;
+	printf("Enter total amount (in multiples of 100) ");
+	scanf("%d",&amt);
+	if(amt%100==0)
+	{
+		r2k=amt/2000;
+		amt=amt%2000;
+		r5=amt/500;
+		amt=amt%500;
+		r2=amt/200;
+		amt=amt%200;
+		r1=amt/100;
+		printf("Rs.2000:%d Rs.500:%d Rs.200:%d Rs.100:%d\n",r2k,r5,r2,r1);
+	}
+	else
+	printf("Invalid amount, Enter in multiples of 100");
+	return(0);
+}
