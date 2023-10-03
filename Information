@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main()
+{
+    printf("NAME        : \tVaishnavi\n");
+  
+    printf("UNIVERSITY  : \tAMITY UNIVERSITY\n");
+  
+    printf("COURSE      : \tB.TECH CSE\n");
+
+    printf("SECTION     : \tD\n");
+
+    printf("BATCH       : \t2023-2027\n");
+   
+  
+    return 0;
+}
