@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main()
+{
+	int pno;
+	char pname[20];
+	float rate,qty,cost;
+	printf("Enter pno ");
+	scanf("%d",&pno);
+	printf("Enter pname ");
+	scanf("%s",pname);
+	printf("Enter rate and qty ");
+	scanf("%f %f",&rate,&qty);
+	cost=rate*qty;
+	printf("Cost = %.2f\n",cost);
+	return(0);
+}
