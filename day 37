@@ -1,0 +1,49 @@
+#include<stdio.h>
+int main()
+{
+	int a,b,c,d,op;
+	printf("1. sum of 2 nos\n");
+	printf("2. square of a no\n");
+	printf("3. product of 3 nos\n");
+	printf("max of 3 nos\n");
+	printf("enter your choice");
+	scanf("%d",&op);
+	switch (op)
+	{
+		case 1:
+			printf("enetr 2 nos");
+			scanf("%d %d",&a,&b);
+			c=a+b;
+			printf("sum= %d\n",c);
+			break;
+			case 2:
+				printf("enter any no");
+				scanf("%d",&a);
+				b=a*a;
+				printf("square= %d\n",b);
+				break;
+				case 3:
+					printf("enter 3 nos");
+					scanf("%d %d %d",&a,&b,&c);
+					d=a*b*c;
+					printf("product= %d\n",d);
+					break;
+					case 4:
+						printf("enter 3 nos");
+						scanf("%d %d %d",&a,&b,&c);
+						if (a>b && a>c)
+						d=a;
+						else if(b>c)
+						a=b;
+						else
+						d=c;
+						printf("max no= %d\n",d);
+						break;
+						printf("invalid choice\n");
+						break;
+					}
+					return 0;
+				}
+					
+	
+	
