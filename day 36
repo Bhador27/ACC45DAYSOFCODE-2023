@@ -1,0 +1,61 @@
+#include<stdio.h>
+int main()
+{
+	int a,b,c,d,op;
+	char ch;
+	float start;
+	printf("1. cube of a nos\n");
+	printf("2. sum of 3 nos\n");
+	printf("3. difference between 2 nos\n");
+	printf("min of 3 nos\n");
+	printf("enter your choice");
+	scanf("%d",&op);
+	switch(op)
+	{
+		case 1:
+			printf("enter a nos");
+			scanf("%d",&a);
+			b=a*a*a;
+			printf("cube= %d\n",b);
+			break;
+			case 2:
+				printf("enter 3 nos");
+				scanf("%d %d %d",&a,&b,&c);
+				d=a+b+c;
+				printf("sum= %d\n",d);
+				break;
+				case 3:
+					printf("enter 2 nos");
+					scanf("%d %d",&a,&b);
+					c=a+b;
+					printf("difference=%d\n",c);
+					break;
+					case 4:
+						printf("enter 3 nos");
+						scanf("%d %d %d",&a,&b,&c);
+						if(a<b && a<c)
+						d=a;
+						else if (b<c)
+						a=b;
+						else
+						a=c;
+						printf("min= %d\n",d);
+						break;
+						default:
+						printf("invalid choice\n");
+						break;
+					}
+					printf("like to cont...(y/n)");
+					fflush (stdio):
+					scanf("%c",&ch);
+					if(ch='y' || ch='y')
+					goto start;
+					return 0;
+				}
+				
+						
+	
+	
+
+
+
